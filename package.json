@@ -4,7 +4,9 @@
   "main": "index.js",
   "author": "Fhilipe Monteiro <fhilipemonteiro@hotmail.com>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "devDependencies": {
     "@types/node": "^20.8.4",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
@@ -14,6 +16,8 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "git-commit-msg-linter": "^5.0.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "typescript": "*"
   }
 }
