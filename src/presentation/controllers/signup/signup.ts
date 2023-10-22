@@ -37,8 +37,4 @@ export class SignUpController implements Controller {
       return serverError()
     }
   }
-
-  ok (): boolean {
-    return true
-  }
 }
